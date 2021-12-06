@@ -1,0 +1,18 @@
+git --version   查看版本號
+git config --global user.name John   標註專案人的名字
+git config --global user.email b0925366079@gmail.com   標註專案人信箱
+git config --list   查詢是否有標註名字以及信箱以及存放位置
+
+git init   創建程式碼倉儲(.git)
+
+git add   添加控管程式
+
+git status    查詢暫存區狀態(包含任何被控管以及未控管)
+
+git restore 檔名.副檔名   可回復該專案被刪除的檔案
+
+git cat-file -t 檔案前6碼     查看該檔案的型態
+git cat-file -p 檔案前6碼     查看該檔案的內容
+git cat-file -s 檔案前6碼     查看該檔案的大小
+git ls-files -s               查看該專案所有檔案
+git ls-files                  查看該專案所有檔案檔名
